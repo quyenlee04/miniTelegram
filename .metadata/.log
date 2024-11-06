@@ -261,3 +261,219 @@ Java Model Exception: Error in Java Model (code 969): themVao(ThreadNhapXuat) {k
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
 !SUBENTRY 1 org.eclipse.jdt.core 4 969 2024-11-06 19:07:33.113
 !MESSAGE themVao(ThreadNhapXuat) {key=Lserver/XuLy;.themVao(LThreadNhapXuat;)V} [in XuLy [in [Working copy] XuLy.java [in server [in src [in miniTelegram]]]]] does not exist
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2024-11-06 19:31:20.559
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+	at org.eclipse.fx.ide.model.internal.FXEventHandlerProperty.isEventHandler(FXEventHandlerProperty.java:38)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.getProperty(PropertiesUtil.java:144)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.resolveProperties(PropertiesUtil.java:100)
+	at org.eclipse.fx.ide.model.internal.FXClass.getLocalProperties(FXClass.java:143)
+	at org.eclipse.fx.ide.model.internal.FXClass.getAllProperties(FXClass.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:156)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2024-11-06 20:08:07.331
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+	at org.eclipse.fx.ide.model.internal.FXEventHandlerProperty.isEventHandler(FXEventHandlerProperty.java:38)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.getProperty(PropertiesUtil.java:144)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.resolveProperties(PropertiesUtil.java:100)
+	at org.eclipse.fx.ide.model.internal.FXClass.getLocalProperties(FXClass.java:143)
+	at org.eclipse.fx.ide.model.internal.FXClass.getAllProperties(FXClass.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:156)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2024-11-06 20:08:23.605
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+	at org.eclipse.fx.ide.model.internal.FXEventHandlerProperty.isEventHandler(FXEventHandlerProperty.java:38)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.getProperty(PropertiesUtil.java:144)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.resolveProperties(PropertiesUtil.java:100)
+	at org.eclipse.fx.ide.model.internal.FXClass.getLocalProperties(FXClass.java:143)
+	at org.eclipse.fx.ide.model.internal.FXClass.getAllProperties(FXClass.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:156)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2024-11-06 20:09:16.962
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+	at org.eclipse.fx.ide.model.internal.FXEventHandlerProperty.isEventHandler(FXEventHandlerProperty.java:38)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.getProperty(PropertiesUtil.java:144)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.resolveProperties(PropertiesUtil.java:100)
+	at org.eclipse.fx.ide.model.internal.FXClass.getLocalProperties(FXClass.java:143)
+	at org.eclipse.fx.ide.model.internal.FXClass.getAllProperties(FXClass.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:156)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2024-11-06 20:10:53.389
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+	at org.eclipse.fx.ide.model.internal.FXEventHandlerProperty.isEventHandler(FXEventHandlerProperty.java:38)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.getProperty(PropertiesUtil.java:144)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.resolveProperties(PropertiesUtil.java:100)
+	at org.eclipse.fx.ide.model.internal.FXClass.getLocalProperties(FXClass.java:143)
+	at org.eclipse.fx.ide.model.internal.FXClass.getAllProperties(FXClass.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:156)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2024-11-06 20:11:12.649
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+	at org.eclipse.fx.ide.model.internal.FXEventHandlerProperty.isEventHandler(FXEventHandlerProperty.java:38)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.getProperty(PropertiesUtil.java:144)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.resolveProperties(PropertiesUtil.java:100)
+	at org.eclipse.fx.ide.model.internal.FXClass.getLocalProperties(FXClass.java:143)
+	at org.eclipse.fx.ide.model.internal.FXClass.getAllProperties(FXClass.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:156)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2024-11-06 20:11:40.904
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+	at org.eclipse.fx.ide.model.internal.FXEventHandlerProperty.isEventHandler(FXEventHandlerProperty.java:38)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.getProperty(PropertiesUtil.java:144)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.resolveProperties(PropertiesUtil.java:100)
+	at org.eclipse.fx.ide.model.internal.FXClass.getLocalProperties(FXClass.java:143)
+	at org.eclipse.fx.ide.model.internal.FXClass.getAllProperties(FXClass.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:156)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
+
+!ENTRY org.eclipse.core.jobs 4 0 2024-11-06 20:14:10.671
+!MESSAGE Text Search
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2024-11-06 20:14:10.671
+!MESSAGE An internal error occurred during: "File Search Worker".
+!STACK 0
+java.lang.NoSuchMethodError: 'byte[] org.eclipse.core.resources.IFile.readNBytes(int)'
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.toShortString(FileCharSequenceProvider.java:495)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:42)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.processFile(TextSearchVisitor.java:208)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:173)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2024-11-06 20:14:10.769
+!MESSAGE Text Search
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2024-11-06 20:14:10.769
+!MESSAGE An internal error occurred during: "File Search Worker".
+!STACK 0
+java.lang.NoSuchMethodError: 'byte[] org.eclipse.core.resources.IFile.readNBytes(int)'
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.toShortString(FileCharSequenceProvider.java:495)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:42)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.processFile(TextSearchVisitor.java:208)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:173)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2024-11-06 20:15:44.131
+!MESSAGE Text Search
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2024-11-06 20:15:44.131
+!MESSAGE An internal error occurred during: "File Search Worker".
+!STACK 0
+java.lang.NoSuchMethodError: 'byte[] org.eclipse.core.resources.IFile.readNBytes(int)'
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.toShortString(FileCharSequenceProvider.java:495)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:42)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.processFile(TextSearchVisitor.java:208)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:173)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 0 2024-11-06 20:15:44.231
+!MESSAGE Text Search
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2024-11-06 20:15:44.231
+!MESSAGE An internal error occurred during: "File Search Worker".
+!STACK 0
+java.lang.NoSuchMethodError: 'byte[] org.eclipse.core.resources.IFile.readNBytes(int)'
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.toShortString(FileCharSequenceProvider.java:495)
+	at org.eclipse.search.internal.core.text.FileCharSequenceProvider.newCharSequence(FileCharSequenceProvider.java:42)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.processFile(TextSearchVisitor.java:208)
+	at org.eclipse.search.internal.core.text.TextSearchVisitor$TextSearchJob.run(TextSearchVisitor.java:173)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.xml.ui 4 4 2024-11-06 20:16:47.654
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IType.getSuperclassName()" because "t" is null
+	at org.eclipse.fx.ide.model.internal.FXEventHandlerProperty.isEventHandler(FXEventHandlerProperty.java:38)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.getProperty(PropertiesUtil.java:144)
+	at org.eclipse.fx.ide.model.internal.utils.PropertiesUtil.resolveProperties(PropertiesUtil.java:100)
+	at org.eclipse.fx.ide.model.internal.FXClass.getLocalProperties(FXClass.java:143)
+	at org.eclipse.fx.ide.model.internal.FXClass.getAllProperties(FXClass.java:135)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.checkControllerAttributes(FXMLValidator.java:156)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:123)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validateV1File(FXMLValidator.java:388)
+	at org.eclipse.fx.ide.fxml.editors.FXMLValidator.validate(FXMLValidator.java:333)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.validate(ReconcileStepForValidator.java:252)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ReconcileStepForValidator.reconcileModel(ReconcileStepForValidator.java:210)
+	at org.eclipse.jface.text.reconciler.AbstractReconcileStep.reconcile(AbstractReconcileStep.java:92)
+	at org.eclipse.wst.sse.ui.internal.reconcile.validator.ValidatorStrategy.reconcile(ValidatorStrategy.java:270)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:323)
+	at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:260)
+	at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:694)
